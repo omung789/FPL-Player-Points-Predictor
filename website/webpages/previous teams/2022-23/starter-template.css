@@ -1,0 +1,53 @@
+body {
+  padding-top: 5rem;
+  background-color: #2b904c; /* Set the background color to a light gray */
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.custom-button {
+  font-size: 16px;
+  padding: 8px 20px; /* Change the padding (top/bottom, left/right) */
+  margin-top: 20px; /* Change the top margin */
+  margin-left: auto; /* Center the button horizontally */
+  margin-right: auto; /* Center the button horizontally */
+  display: block; /* Ensure the button is displayed as a block element */
+}
+
+/* CSS styles for the pitch */
+.pitch {
+  background-image: url('../../pitch.png');
+  background-size: cover; /* Scale the background image to cover the entire container */
+  background-position: center; /* Center the background image */
+  height: 750px; /* Set a fixed height for the pitch */
+  width: 100%; /* Set the width of the pitch */
+  margin: 0 auto; /* Center the pitch horizontally */
+  text-align: center; /* Center the text inside the pitch */
+  padding-top: 20px; /* Add padding to the top of the pitch */
+  position: relative; /* Set position to relative for absolute positioning */
+}
+
+.bench { background-color: rgba(0, 0, 0, 0.5); position: absolute; bottom: 0; left: 0; right: 0; padding: 10px; color: antiquewhite;}
+
+/* CSS styles for the player information */
+.player {
+  justify-self:first baseline;
+  height: 105px; /* Set a fixed height for the player element */
+  width: 150px; /* Set a fixed width for the player element */
+  display: inline-block; /* Display the players in a row */
+  justify-content: center; /* Align the content horizontally */
+  align-items: center; /* Align the content vertically */
+  padding: 10px;
+  margin-bottom: 30px; /* Add margin between players */
+}
+
+.total_points_and_price {
+  position: absolute;
+    top: 20px; /* Adjust top position as needed */
+    right: 20px; /* Adjust right position as needed */
+    background-color: #000; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px; /* Padding around the text */
+    border-radius: 5px; /* Border radius */
+}

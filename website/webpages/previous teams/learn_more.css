@@ -1,0 +1,16 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.custom-button {
+  font-size: 16px;
+  padding: 8px 20px; /* Change the padding (top/bottom, left/right) */
+  margin-top: 20px; /* Change the top margin */
+  margin-left: auto; /* Center the button horizontally */
+  margin-right: auto; /* Center the button horizontally */
+  display: block; /* Ensure the button is displayed as a block element */
+}

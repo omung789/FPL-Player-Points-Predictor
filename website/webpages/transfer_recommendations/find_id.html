@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Bootstrap core CSS -->
+    <link href="../../dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+    <title>Button Example</title>
+    <style>
+        /* CSS styles for the button */
+        .custom-button {
+            font-size: 16px; /* Change the font size */
+            padding: 8px 20px; /* Change the padding (top/bottom, left/right) */
+            margin-top: 20px; /* Change the top margin */
+            margin-left: 500px; /* Change the left margin */
+        }
+    </style>
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index/index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main role="main" class="container">
+
+      <div class="starter-template">
+        <h1>How to find team ID</h1>
+        <p>
+            Login to your account at <a target="_blank" href="https://fantasy.premierleague.com">https://fantasy.premierleague.com</a>
+            and click "Pick Team"
+        </p>
+        <img src="pick_team.png" alt="Pick Team" class="img-fluid"> <!-- Image source: https://fantasy.premierleague.com/ -->
+        <p class="mt-3 mb-3">
+            Next, click "Gameweek History" on the right side of your screen.
+        </p>
+        <img src="gameweek_history.png" alt="Gameweek History" class="img-fluid"> <!-- Image source: https://fantasy.premierleague.com/ -->
+        <p class="mt-3 mb-3">
+            Your Team ID will be the number in the URL.
+            i.e. https://fantasy.premierleague.com/entry/12345/history is Team ID 12345.
+        </p>
+        <img src="url with team num.png" alt="URL with Team Number" class="img-fluid"> <!-- Image source: https://fantasy.premierleague.com/ -->
+      </div>
+
+      <button class="btn btn-primary custom-button" onclick="window.history.back()">Back</button>
+
+    </main><!-- /.container -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
