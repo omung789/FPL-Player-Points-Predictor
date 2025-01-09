@@ -1,0 +1,17 @@
+<div class="player goalkeeper"><img src="../../logos/NFO.png" alt="Nott'm Forest Logo"><br>Sels<br>Price: 4.5<br>Points: 94.0</div>
+<div class="player defender"><img src="../../logos/BOU.png" alt="Bournemouth Logo"><br>Kerkez<br>Price: 4.5<br>Points: 75.0</div>
+<div class="player defender"><img src="../../logos/NEW.png" alt="Newcastle Logo"><br>Hall<br>Price: 4.5<br>Points: 79.0</div>
+<div class="player defender"><img src="../../logos/NFO.png" alt="Nott'm Forest Logo"><br>Milenkovic<br>Price: 4.5<br>Points: 83.0</div>
+<div class="player defender"><img src="../../logos/NFO.png" alt="Nott'm Forest Logo"><br>Aina<br>Price: 4.5<br>Points: 95.0</div>
+<div class="player defender"><img src="../../logos/ARS.png" alt="Arsenal Logo"><br>Saliba<br>Price: 6.0<br>Points: 74.0</div>
+<div class="player midfielder"><img src="../../logos/BRE.png" alt="Brentford Logo"><br>Mbeumo<br>Price: 7.0<br>Points: 136.0</div>
+<div class="player midfielder"><img src="../../logos/CHE.png" alt="Chelsea Logo"><br>Palmer<br>Price: 10.5<br>Points: 153.0</div>
+<div class="player midfielder"><img src="../../logos/LIV.png" alt="Liverpool Logo"><br>Salah<br>Price: 12.5<br>Points: 209.0</div>
+<div class="player forward"><img src="../../logos/WOL.png" alt="Wolves Logo"><br>Matheus Santos Carneiro Da Cunha<br>Price: 6.5<br>Points: 111.0</div>
+<div class="player forward"><img src="../../logos/MCI.png" alt="Man City Logo"><br>Haaland<br>Price: 15.0<br>Points: 123.0</div>
+<div class="player"><h6>GKP</h6><img src="../../logos/WHU.png" alt="West Ham Logo"><br>Fabianski<br>Price: 4.0<br>Points: 33.0</div>
+<div class="player"><h6>MID 1</h6><img src="../../logos/AVL.png" alt="Aston Villa Logo"><br>Onana<br>Price: 5.0<br>Points: 37.0</div>
+<div class="player"><h6>MID 2</h6><img src="../../logos/ARS.png" alt="Arsenal Logo"><br>Nwaneri<br>Price: 4.5<br>Points: 23.0</div>
+<div class="player"><h6>FWD 1</h6><img src="../../logos/CHE.png" alt="Chelsea Logo"><br>Romelu Lukaku Bolingoli<br>Price: 6.5<br>Points: 0.0</div>
+<h6>Total Points (Starting Lineup Only): 1232.0</h6>
+<h6>Total Cost: 100.0</h6>
