@@ -1,17 +1,17 @@
-<div class="player goalkeeper"><img src="../../logos/NFO.png" alt="Nott'm Forest Logo"><br>Sels<br>Price: 4.9<br>Points: 3.86</div>
-<div class="player defender"><img src="../../logos/MUN.png" alt="Man Utd Logo"><br>Diogo Dalot Teixeira<br>Price: 5.0<br>Points: 3.03</div>
-<div class="player defender"><img src="../../logos/BOU.png" alt="Bournemouth Logo"><br>Huijsen<br>Price: 4.4<br>Points: 3.07</div>
-<div class="player defender"><img src="../../logos/WOL.png" alt="Wolves Logo"><br>Ait-Nouri<br>Price: 4.8<br>Points: 3.22</div>
-<div class="player defender"><img src="../../logos/CRY.png" alt="Crystal Palace Logo"><br>Munoz<br>Price: 4.7<br>Points: 3.25</div>
-<div class="player defender"><img src="../../logos/BOU.png" alt="Bournemouth Logo"><br>Kerkez<br>Price: 4.7<br>Points: 3.34</div>
-<div class="player midfielder"><img src="../../logos/LIV.png" alt="Liverpool Logo"><br>Alexis Mac Allister<br>Price: 6.2<br>Points: 3.83</div>
-<div class="player midfielder"><img src="../../logos/CHE.png" alt="Chelsea Logo"><br>Palmer<br>Price: 11.4<br>Points: 6.72</div>
-<div class="player midfielder"><img src="../../logos/LIV.png" alt="Liverpool Logo"><br>Salah<br>Price: 13.6<br>Points: 7.89</div>
-<div class="player forward"><img src="../../logos/MCI.png" alt="Man City Logo"><br>Haaland<br>Price: 14.8<br>Points: 6.91</div>
-<div class="player forward"><img src="../../logos/ARS.png" alt="Arsenal Logo"><br>Gabriel Fernando de Jesus<br>Price: 6.9<br>Points: 3.96</div>
-<div class="player"><h6>GKP</h6><img src="../../logos/BRE.png" alt="Brentford Logo"><br>Valdimarsson<br>Price: 3.9<br>Points: 0.73</div>
-<div class="player"><h6>FWD 1</h6><img src="../../logos/SOU.png" alt="Southampton Logo"><br>Stewart<br>Price: 4.4<br>Points: 0.17</div>
-<div class="player"><h6>MID 1</h6><img src="../../logos/LEI.png" alt="Leicester Logo"><br>Choudhury<br>Price: 4.3<br>Points: 0.49</div>
-<div class="player"><h6>MID 2</h6><img src="../../logos/LEI.png" alt="Leicester Logo"><br>Choudhury<br>Price: 4.3<br>Points: 0.49</div>
+<div class="player goalkeeper"><img src="../logos/NFO.png" alt="Nott'm Forest Logo"><br>Sels<br>Price: 4.9<br>Points: 3.86</div>
+<div class="player defender"><img src="../logos/MUN.png" alt="Man Utd Logo"><br>Diogo Dalot Teixeira<br>Price: 5.0<br>Points: 3.03</div>
+<div class="player defender"><img src="../logos/BOU.png" alt="Bournemouth Logo"><br>Huijsen<br>Price: 4.4<br>Points: 3.07</div>
+<div class="player defender"><img src="../logos/WOL.png" alt="Wolves Logo"><br>Ait-Nouri<br>Price: 4.8<br>Points: 3.22</div>
+<div class="player defender"><img src="../logos/CRY.png" alt="Crystal Palace Logo"><br>Munoz<br>Price: 4.7<br>Points: 3.25</div>
+<div class="player defender"><img src="../logos/BOU.png" alt="Bournemouth Logo"><br>Kerkez<br>Price: 4.7<br>Points: 3.34</div>
+<div class="player midfielder"><img src="../logos/LIV.png" alt="Liverpool Logo"><br>Alexis Mac Allister<br>Price: 6.2<br>Points: 3.83</div>
+<div class="player midfielder"><img src="../logos/CHE.png" alt="Chelsea Logo"><br>Palmer<br>Price: 11.4<br>Points: 6.72</div>
+<div class="player midfielder"><img src="../logos/LIV.png" alt="Liverpool Logo"><br>Salah<br>Price: 13.6<br>Points: 7.89</div>
+<div class="player forward"><img src="../logos/MCI.png" alt="Man City Logo"><br>Haaland<br>Price: 14.8<br>Points: 6.91</div>
+<div class="player forward"><img src="../logos/ARS.png" alt="Arsenal Logo"><br>Gabriel Fernando de Jesus<br>Price: 6.9<br>Points: 3.96</div>
+<div class="player"><h6>GKP</h6><img src="../logos/BRE.png" alt="Brentford Logo"><br>Valdimarsson<br>Price: 3.9<br>Points: 0.73</div>
+<div class="player"><h6>FWD 1</h6><img src="../logos/SOU.png" alt="Southampton Logo"><br>Stewart<br>Price: 4.4<br>Points: 0.17</div>
+<div class="player"><h6>MID 1</h6><img src="../logos/LEI.png" alt="Leicester Logo"><br>Choudhury<br>Price: 4.3<br>Points: 0.49</div>
+<div class="player"><h6>MID 2</h6><img src="../logos/LEI.png" alt="Leicester Logo"><br>Choudhury<br>Price: 4.3<br>Points: 0.49</div>
 <h6>Total xP (Starting Lineup Only): 49.08</h6>
 <h6>Total Cost: 98.3</h6>

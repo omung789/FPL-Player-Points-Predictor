@@ -13,6 +13,7 @@ Ensure all player names in html files are formatted correctly, i.e. if multiple 
 # import machine_learning
 
 # import combine_current_seasons_data
+from git import Repo
 
 gameweek = 21
 
@@ -89,7 +90,7 @@ try:
 except FileExistsError:
     pass
 
-#from best_teams import get_best_teams
+from best_teams import get_best_teams
 
 def team_to_html_strings(data_path,results_path):
     builder = best_team_no_transfers.FantasyTeamBuilder(data_path)
@@ -98,6 +99,8 @@ def team_to_html_strings(data_path,results_path):
     team, price = builder.get_best_team()
     html_strings = []
     num_defenders, num_midfielders, num_forwards = 0, 0, 0
+    current_date = date.today()
+    current_year = current_date.year
     for i,player in enumerate(team):
         full_name = player[0].split(" ")
         if len(full_name) == 2:
@@ -105,19 +108,23 @@ def team_to_html_strings(data_path,results_path):
         else:
             name = player[0]
         name = remove_accents(name)
+        if str(current_year-1) in data_path:
+            backspaces = '../'
+        else:
+            backspaces = '../../'
         if (player[2] == "GKP" or player[2] == "GK") and i == 0:
-            html_strings.append(f'<div class="player goalkeeper"><img src="../../logos/{clubs[player[1]]}.png" alt="{player[1]} Logo"><br>{name}<br>Price: {player[3]}<br>Points: {player[-1]}</div>')
+            html_strings.append(f'<div class="player goalkeeper"><img src="{backspaces}logos/{clubs[player[1]]}.png" alt="{player[1]} Logo"><br>{name}<br>Price: {player[3]}<br>Points: {player[-1]}</div>')
         elif player[2] == "DEF" and i < 11:
-            html_strings.append(f'<div class="player defender"><img src="../../logos/{clubs[player[1]]}.png" alt="{player[1]} Logo"><br>{name}<br>Price: {player[3]}<br>Points: {player[-1]}</div>')
+            html_strings.append(f'<div class="player defender"><img src="{backspaces}logos/{clubs[player[1]]}.png" alt="{player[1]} Logo"><br>{name}<br>Price: {player[3]}<br>Points: {player[-1]}</div>')
         elif player[2] == "MID" and i < 11:
-            html_strings.append(f'<div class="player midfielder"><img src="../../logos/{clubs[player[1]]}.png" alt="{player[1]} Logo"><br>{name}<br>Price: {player[3]}<br>Points: {player[-1]}</div>')
+            html_strings.append(f'<div class="player midfielder"><img src="{backspaces}logos/{clubs[player[1]]}.png" alt="{player[1]} Logo"><br>{name}<br>Price: {player[3]}<br>Points: {player[-1]}</div>')
         elif player[2] == "FWD" and i < 11:
-            html_strings.append(f'<div class="player forward"><img src="../../logos/{clubs[player[1]]}.png" alt="{player[1]} Logo"><br>{name}<br>Price: {player[3]}<br>Points: {player[-1]}</div>')
+            html_strings.append(f'<div class="player forward"><img src="{backspaces}logos/{clubs[player[1]]}.png" alt="{player[1]} Logo"><br>{name}<br>Price: {player[3]}<br>Points: {player[-1]}</div>')
         else: #bench player
             num = 0
             if player[2] == 'GK' or player[2] == 'GKP':
                 player[2] = 'GKP'
-                html_strings.append(f'<div class="player"><h6>{player[2]}</h6><img src="../../logos/{clubs[player[1]]}.png" alt="{player[1]} Logo"><br>{name}<br>Price: {player[3]}<br>Points: {player[-1]}</div>')
+                html_strings.append(f'<div class="player"><h6>{player[2]}</h6><img src="{backspaces}logos/{clubs[player[1]]}.png" alt="{player[1]} Logo"><br>{name}<br>Price: {player[3]}<br>Points: {player[-1]}</div>')
             else:
                 if player[2] == 'DEF':
                     num_defenders += 1
@@ -128,7 +135,7 @@ def team_to_html_strings(data_path,results_path):
                 elif player[2] == 'FWD':
                     num_forwards += 1
                     num = num_forwards
-                html_strings.append(f'<div class="player"><h6>{player[2]} {num}</h6><img src="../../logos/{clubs[player[1]]}.png" alt="{player[1]} Logo"><br>{name}<br>Price: {player[3]}<br>Points: {player[-1]}</div>')
+                html_strings.append(f'<div class="player"><h6>{player[2]} {num}</h6><img src="{backspaces}logos/{clubs[player[1]]}.png" alt="{player[1]} Logo"><br>{name}<br>Price: {player[3]}<br>Points: {player[-1]}</div>')
     total_points = sum([player[-1] for player in team[:11]])
     if len(str(total_points)) > 6:
         html_strings.append(f'<h6>Total xP (Starting Lineup Only): {round(total_points,2)}</h6>')
@@ -154,7 +161,13 @@ for year in years:
     
     team_to_html_strings(data_path,results_path)
 
-from fix_html_files import fix_previous_teams_folder
-from fix_html_files import fix_previous_teams_subdirectories
-from fix_html_files import fix_transfer_recommendations
+# from fix_html_files import fix_previous_teams_folder
+# from fix_html_files import fix_previous_teams_subdirectories
+# from fix_html_files import fix_transfer_recommendations
 
+# def push():
+#     repo = Repo(fr"C:\Users\omung\OneDrive - University College London\UCL\Final Year Project\Python\website")
+#     repo.git.add(update=True)
+#     repo.index.commit("Automated Update")
+#     origin = repo.remote(name='origin')
+#     origin.push()

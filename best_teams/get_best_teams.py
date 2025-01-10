@@ -94,7 +94,7 @@ for i, player in enumerate(predicted_players_list):
     else:
         name = player[0]
     remove_accents(name)
-    string = f'<div class="player-info"><img src="../../logos/{clubs[player[1]]}.png" alt="{player[1]} Logo"><p>{name}<br>Price: {float(player[3]) / 10}<br>xP: {player[4].round(2)}</p></div>'
+    string = f'<div class="player-info"><img src="../logos/{clubs[player[1]]}.png" alt="{player[1]} Logo"><p>{name}<br>Price: {float(player[3]) / 10}<br>xP: {round(player[4],2)}</p></div>'
     html_strings.append(string)
 
 with open(fr"C:\Users\omung\OneDrive - University College London\UCL\Final Year Project\Python\data\{year}\machine learning\predicted_best_teams\predicted_best_players_{year}_gw{gameweek}.txt", "w") as file:
