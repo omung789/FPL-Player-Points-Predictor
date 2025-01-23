@@ -1,21 +1,21 @@
 '''
 BEFORE RUNNING:
-Update gameweek number in autmate_everything.py, data_scraping/get_next_gameweeks_fixtures.py, data_scraping/get_previous_gameweeks_outcomes.py,
-machine_learning.py, fix_html_files/fix_previous_teams_subdirectories, fix_html_files/fix_transfer_recommendations and best_teams/get_best_teams.py
+Update gameweek number in automate_everything.py, data_scraping/get_next_gameweeks_fixtures.py, data_scraping/get_previous_gameweeks_outcomes.py,
+machine_learning.py, fix_html_files/fix_previous_teams_subdirectories, fix_html_files/fix_transfer_recommendations, best_teams/get_best_teams.py
+and combine_current_seasons_data.py
 Ensure all logos for teams are in the website/webpages/logos folder, essential to check for newly promoted teams
 Ensure all player names in html files are formatted correctly, i.e. if multiple names instead of just a surname change to their known as
 '''
 
 # from data_scraping import get_previous_seasons_data
 # from data_scraping import clean_previous_seasons_data
-# from data_scraping import get_previous_gameweeks_outcomes
+#from data_scraping import get_previous_gameweeks_outcomes
 # from data_scraping import get_next_gameweeks_fixtures
 # import machine_learning
 
 # import combine_current_seasons_data
-from git import Repo
 
-gameweek = 21
+gameweek = 23
 
 clubs = {
     'Arsenal': 'ARS',
@@ -150,6 +150,8 @@ def team_to_html_strings(data_path,results_path):
 for year in years:
     data_path = fr"C:\Users\omung\OneDrive - University College London\UCL\Final Year Project\Python\data\cleaned last 3 seasons data\cleaned_data_for_{year}_season.csv"
     results_path = fr"C:\Users\omung\OneDrive - University College London\UCL\Final Year Project\Python\data\{year}\html_strings_{year}.txt"
+    if year != years[0] and os.path.exists(results_path):
+        continue
     if year == years[0]:
         # best team so far this season
         data_path = fr"C:\Users\omung\OneDrive - University College London\UCL\Final Year Project\Python\data\{year}\results\combined_data_{year}_so_far.csv"
@@ -161,9 +163,10 @@ for year in years:
     
     team_to_html_strings(data_path,results_path)
 
-# from fix_html_files import fix_previous_teams_folder
-# from fix_html_files import fix_previous_teams_subdirectories
-# from fix_html_files import fix_transfer_recommendations
+#if gameweek == 1:
+from fix_html_files import fix_previous_teams_folder
+from fix_html_files import fix_previous_teams_subdirectories
+from fix_html_files import fix_transfer_recommendations
 
 # def push():
 #     repo = Repo(fr"C:\Users\omung\OneDrive - University College London\UCL\Final Year Project\Python\website")

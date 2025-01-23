@@ -48,6 +48,11 @@ gameweeks = ["gameweek" + str(i) for i in range(1, 39)]
 list_all_dfs = []
 for i, year in enumerate(years):
     list_dfs = []
+    current_dir = os.path.dirname(os.path.realpath(__file__))
+    if os.path.exists(current_dir[:-14] + f"/data/data_for_{year}_season.csv"):
+        print(f"Data already exists for {year} season")
+        continue
+
     print(year)
 
     # get opponent_team
@@ -77,7 +82,7 @@ for i, year in enumerate(years):
     all_data = pd.concat(list_dfs)
     
     #save data for each season seperately for future use
-    current_dir = os.path.dirname(os.path.realpath(__file__))
+    
     all_data.sort_values(by=["name", "gameweek"], inplace=True)
     all_data.to_csv(current_dir[:-14] + f"/data/data_for_{year}_season.csv")
     

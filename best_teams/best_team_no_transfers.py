@@ -176,10 +176,28 @@ class FantasyTeamBuilder:
     #     return total
     
     def get_best_team(self):
-        temp_gkp = self.gkp_player_points.copy()
-        temp_def = self.def_player_points.copy()
-        temp_mid = self.mid_player_points.copy()
-        temp_fwd = self.fwd_player_points.copy()
+        temp_gkp2 = self.gkp_player_points.copy()
+        temp_def2 = self.def_player_points.copy()
+        temp_mid2 = self.mid_player_points.copy()
+        temp_fwd2 = self.fwd_player_points.copy()
+
+        temp_gkp = []
+        temp_def = []
+        temp_mid = []
+        temp_fwd = []
+
+        for player in temp_gkp2:
+            if player not in temp_gkp:
+                temp_gkp.append(player)
+        for player in temp_def2:
+            if player not in temp_def:
+                temp_def.append(player)
+        for player in temp_mid2:
+            if player not in temp_mid:
+                temp_mid.append(player)
+        for player in temp_fwd2:
+            if player not in temp_fwd:
+                temp_fwd.append(player)
 
         self.get_total_player_points(temp_gkp)
         self.get_total_player_points(temp_def)
@@ -292,9 +310,9 @@ class FantasyTeamBuilder:
             temp_gkp.pop(0)
         bench, price = self.add_goalkeeper(bench, temp_gkp, price)
         # self.print_team(team)
-        # print("price:", price)
-
-        # print("bench1:",bench)
+        print("expensive team:",team)
+        print("price:", price)
+        print("bench1:",bench)
 
         while price > 100:
             team = self.sort_team_by_position(team)
@@ -313,15 +331,18 @@ class FantasyTeamBuilder:
             #check if bench players can be next best fit for team, if so put them in contention for next player
             if len(bench_defenders) > 0:
                 next_player = max(bench_defenders, key=lambda x: x[-1])
-                temp_def.append(next_player)
+                if next_player not in temp_def:
+                    temp_def.append(next_player)
             
             if len(bench_midfielders) > 0:
                 next_player = max(bench_midfielders, key=lambda x: x[-1])
-                temp_mid.append(next_player)
+                if next_player not in temp_mid:
+                    temp_mid.append(next_player)
 
             if len(bench_forwards) > 0:
                 next_player = max(bench_forwards, key=lambda x: x[-1])
-                temp_fwd.append(next_player)
+                if next_player not in temp_fwd:
+                    temp_fwd.append(next_player)
 
             self.sort_points_by_total(temp_gkp, temp_def, temp_mid, temp_fwd)
             
@@ -332,25 +353,28 @@ class FantasyTeamBuilder:
             next_players.sort(key=lambda x: x[-1], reverse=True)
             team.sort(key=lambda x: x[-1])
             for player in team:
+                if price <= 100:
+                    break
                 temp_team = team.copy()
                 temp_team.remove(player)
                 for i in range(0, len(next_players)):
                     next_player = next_players[i]
                     if player[2] != "GKP" and next_player[2] != "GK":
-                        if float(next_player[3]) < float(player[3]) and self.max_3_per_team([next_player] + temp_team) and self.valid_formations([next_player] + temp_team):
+                        if float(next_player[3]) < float(player[3]) and self.max_3_per_team([next_player] + temp_team + bench) and self.valid_formations([next_player] + temp_team):
                             team.remove(player)
                             players_removed_from_team.append(player)
                             team.append(next_player)
                             price -= float(player[3])
                             price += float(next_player[3])
                             if next_player in bench:
+                                print("next player in bench",next_player)
                                 bench.remove(next_player)
                                 price -= float(next_player[3])
                                 if next_player[2] == "DEF":
                                     num_defenders -= 1
                                     while num_defenders < team_defenders:
                                         new_bench_player = min(temp_def, key=lambda x: x[3])
-                                        if self.max_3_per_team([new_bench_player] + team + bench) and temp_def[0][0][:3] != next_player[0][:3]:
+                                        if self.max_3_per_team([new_bench_player] + team + bench):# and temp_def[0][0][:3] != next_player[0][:3]:
                                             bench.append(new_bench_player)
                                             price += float(new_bench_player[3])
                                             num_defenders += 1
@@ -359,16 +383,29 @@ class FantasyTeamBuilder:
                                     num_midfielders -= 1
                                     while num_midfielders < team_midfielders:
                                         new_bench_player = min(temp_mid, key=lambda x: x[3])
-                                        if self.max_3_per_team([new_bench_player] + team + bench) and temp_mid[0][0][:3] != next_player[0][:3]:
+                                        if self.max_3_per_team([new_bench_player] + team + bench):# and temp_mid[0][0][:3] != next_player[0][:3]:
                                             bench.append(new_bench_player)
                                             price += float(new_bench_player[3])
                                             num_midfielders += 1
                                         temp_mid.remove(new_bench_player)
                                 elif next_player[2] == "FWD":
                                     num_forwards -= 1
+                                    # print("bench rn:",bench)
+                                    # print("next_player:",next_player)
+                                    # print("price:",price)
+                                    # print("num_forwards:",num_forwards)
+                                    # print("team_forwards:",team_forwards)
+                                    # print("team:",team)
                                     while num_forwards < team_forwards:
+                                        #print("temp_fwd:",temp_fwd)
                                         new_bench_player = min(temp_fwd, key=lambda x: x[3])
-                                        if self.max_3_per_team([new_bench_player] + team + bench) and temp_fwd[0][0][:3] != next_player[0][:3]:
+                                        print("new_bench_player:",new_bench_player)
+                                        print("team:",team)
+                                        print("bench while:",bench)
+                                        print("max3perteam",self.max_3_per_team([new_bench_player] + team + bench))
+                                        print("temp_fwd[0][0][:3], next_player[0][:3]",temp_fwd[0][0][:3], next_player[0][:3])
+                                        if self.max_3_per_team([new_bench_player] + team + bench):# and temp_fwd[0][0][:3] != next_player[0][:3]:
+                                            print("new_bench_player2:",new_bench_player)
                                             bench.append(new_bench_player)
                                             price += float(new_bench_player[3])
                                             num_forwards += 1

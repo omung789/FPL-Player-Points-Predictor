@@ -38,7 +38,7 @@ current_gameweek = requests.get(f"https://fantasy.premierleague.com/api/event-st
 #{'bonus_added': True, 'date': '2024-03-11', 'event': 28, 'points': 'r'}, {'bonus_added': True, 'date': '2024-03-13', 'event': 28, 'points': 'r'}], 'leagues': 'Updating'}
 
 #change to next gameweek
-gameweek = 21
+gameweek = 23
 
 all_data = requests.get(f"https://fantasy.premierleague.com/api/bootstrap-static/").json()
 
@@ -68,14 +68,19 @@ for player in player_data:
     fixture = fixtures_data["fixtures"][0]
     print(fixture)
 
+
+
     if fixture["event"] > gameweek:
+        continue
+
+    # will be not a player, but instead manager, which we dont want to add to the team of best players
+    if player["element_type"] > 4:
         continue
 
     ids.append(player["id"])
     names.append(player["first_name"] + " " + player["second_name"])
     
     positions.append(player["element_type"])
-    
 
     player_teams.append(player["team"])
     costs.append(player["now_cost"])

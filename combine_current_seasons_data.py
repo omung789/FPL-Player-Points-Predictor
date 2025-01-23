@@ -14,9 +14,9 @@ year = f"{current_year}-{str(current_year + 1)[2:]}"
 current_path = os.getcwd()
 data_dir = os.path.join(current_path, f"data/{year}/results")
 
-gameweek_num = 20   
+gameweek_num = 23   
 columns = ['PLAYER', 'TEAM', 'POSITION']
-gameweeks = [i for i in range(1, gameweek_num + 1)]
+gameweeks = [i for i in range(1, gameweek_num)]
 
 for gameweek in gameweeks:
     columns.append(f"PRICE {gameweek}")

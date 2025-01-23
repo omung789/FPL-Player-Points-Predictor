@@ -45,8 +45,8 @@ train = pd.read_csv(os.path.join(data_directory, "combined_previous_seasons_data
 
 old_gameweek_cleaned = []
 #get data from previous gameweeks in the current season
-gameweek = 20
-for i in range(1, gameweek):
+gameweek = 23
+for i in range(1, gameweek - 1):
     file_path = os.path.join(data_directory,year,"results",f"gameweek_{i}_results.csv")
     old_gameweek_cleaned.append(pd.read_csv(file_path))
 
@@ -63,7 +63,6 @@ for col in categorical_columns:
         train[col + '_Numerical'] = label_encoders[col].fit_transform(train[col])
         train.drop(columns=col, inplace=True)
 
-gameweek = 21
 # data for current gameweek we want to predict on
 test_file_path = os.path.join(data_directory, year, "fixtures",f"gameweek_{gameweek}_fixtures.csv")
 test = pd.read_csv(test_file_path, index_col=0)

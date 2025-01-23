@@ -68,7 +68,7 @@ if current_month < 7:
 
 year = f"{current_year}-{str(current_year + 1)[2:]}"
 
-gameweek = 21
+gameweek = 23
 predictions_df = pd.read_csv(fr"C:\Users\omung\OneDrive - University College London\UCL\Final Year Project\Python\data\{year}\machine learning\gameweek_{gameweek}_predictions.csv")
 predictions_df = predictions_df.sort_values(by='Linear Regression POINTS Predictions', ascending=False)
 
