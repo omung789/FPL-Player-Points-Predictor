@@ -7,6 +7,12 @@ Ensure all logos for teams are in the website/webpages/logos folder, essential t
 Ensure all player names in html files are formatted correctly, i.e. if multiple names instead of just a surname change to their known as
 '''
 
+'''
+TODO: Find out why backspaces isnt working correctly in get_html_strings() for previous teams/2024/25/index.html
+also for that file find why gw didnt update - think its coz we skipped last week so should be fine from now on just need to check
+Update all python files mentioned above to OOP so we can initialise them with the gameweek number in this file
+'''
+
 # from data_scraping import get_previous_seasons_data
 # from data_scraping import clean_previous_seasons_data
 #from data_scraping import get_previous_gameweeks_outcomes
