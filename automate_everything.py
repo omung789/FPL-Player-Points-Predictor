@@ -1,7 +1,7 @@
 '''
 BEFORE RUNNING:
 Update gameweek number in automate_everything.py, data_scraping/get_next_gameweeks_fixtures.py, data_scraping/get_previous_gameweeks_outcomes.py,
-machine_learning.py, fix_html_files/fix_previous_teams_subdirectories, fix_html_files/fix_transfer_recommendations, best_teams/get_best_teams.py
+machine_learning.py, fix_html_files/fix_previous_teams_subdirectories.py, fix_html_files/fix_transfer_recommendations.py, best_teams/get_best_teams.py
 and combine_current_seasons_data.py
 Ensure all logos for teams are in the website/webpages/logos folder, essential to check for newly promoted teams
 Ensure all player names in html files are formatted correctly, i.e. if multiple names instead of just a surname change to their known as
@@ -11,17 +11,22 @@ Ensure all player names in html files are formatted correctly, i.e. if multiple 
 TODO: Find out why backspaces isnt working correctly in get_html_strings() for previous teams/2024/25/index.html
 also for that file find why gw didnt update - think its coz we skipped last week so should be fine from now on just need to check
 Update all python files mentioned above to OOP so we can initialise them with the gameweek number in this file
+Use FPL API to get current gameweek and update all files to use that instead of hardcoding
+get best players for the next 4 gameweeks as opposed to just the next one
+compare performance of best team to their actual points total in comparison to average points total and best points total
+code double points for captain
+change html_strings file to csv so that special characters can be used
 '''
 
 # from data_scraping import get_previous_seasons_data
 # from data_scraping import clean_previous_seasons_data
-#from data_scraping import get_previous_gameweeks_outcomes
-# from data_scraping import get_next_gameweeks_fixtures
-# import machine_learning
+from data_scraping import get_previous_gameweeks_outcomes
+from data_scraping import get_next_gameweeks_fixtures
+import machine_learning
 
-# import combine_current_seasons_data
+import combine_current_seasons_data
 
-gameweek = 23
+gameweek = 24
 
 clubs = {
     'Arsenal': 'ARS',

@@ -1,0 +1,17 @@
+<div class="player goalkeeper"><img src="../logos/ARS.png" alt="Arsenal Logo"><br>David Raya Martin<br>Price: 5.5<br>Points: 3.64</div>
+<div class="player defender"><img src="../logos/CHE.png" alt="Chelsea Logo"><br>Marc Cucurella Saseta<br>Price: 5.1<br>Points: 3.17</div>
+<div class="player defender"><img src="../logos/NEW.png" alt="Newcastle Logo"><br>Hall<br>Price: 5.1<br>Points: 3.17</div>
+<div class="player defender"><img src="../logos/CRY.png" alt="Crystal Palace Logo"><br>Munoz<br>Price: 4.8<br>Points: 3.18</div>
+<div class="player defender"><img src="../logos/CRY.png" alt="Crystal Palace Logo"><br>Guehi<br>Price: 4.6<br>Points: 3.25</div>
+<div class="player defender"><img src="../logos/FUL.png" alt="Fulham Logo"><br>Robinson<br>Price: 5.1<br>Points: 3.88</div>
+<div class="player midfielder"><img src="../logos/LIV.png" alt="Liverpool Logo"><br>Salah<br>Price: 13.7<br>Points: 7.12</div>
+<div class="player midfielder"><img src="../logos/TOT.png" alt="Spurs Logo"><br>Heung-min<br>Price: 9.8<br>Points: 4.4</div>
+<div class="player forward"><img src="../logos/EVE.png" alt="Everton Logo"><br>Ndiaye<br>Price: 5.5<br>Points: 3.06</div>
+<div class="player forward"><img src="../logos/LEI.png" alt="Leicester Logo"><br>Vardy<br>Price: 5.4<br>Points: 3.25</div>
+<div class="player forward"><img src="../logos/MCI.png" alt="Man City Logo"><br>Haaland<br>Price: 14.7<br>Points: 6.58</div>
+<div class="player"><h6>GKP</h6><img src="../logos/BRE.png" alt="Brentford Logo"><br>Valdimarsson<br>Price: 3.9<br>Points: 0.2</div>
+<div class="player"><h6>MID 1</h6><img src="../logos/EVE.png" alt="Everton Logo"><br>Iroegbunam<br>Price: 4.3<br>Points: 0.21</div>
+<div class="player"><h6>MID 2</h6><img src="../logos/EVE.png" alt="Everton Logo"><br>Iroegbunam<br>Price: 4.3<br>Points: 0.21</div>
+<div class="player"><h6>MID 3</h6><img src="../logos/CHE.png" alt="Chelsea Logo"><br>Kellyman<br>Price: 4.3<br>Points: 0.2</div>
+<h6>Total Points (Starting Lineup Only): 44.7</h6>
+<h6>Total Cost: 96.1</h6>

@@ -47,7 +47,7 @@ all_data = requests.get(f"https://fantasy.premierleague.com/api/bootstrap-static
 player_data = all_data["elements"]
 
 # put upcoming gameweek number here
-gameweeks = 23
+gameweeks = 24
 last_3_gameweeks_data = []
 for gameweek in range(1, gameweeks):
     print(f"Getting gameweek {gameweek} results")
@@ -58,6 +58,9 @@ for gameweek in range(1, gameweeks):
     
     for player in player_data:
         #print("player:\n",player)
+        # will be not a player, but instead manager, which we dont want to add to the team of best players
+        if player["element_type"] > 4:
+            continue
         id = player["id"]
         all_gameweek_results = requests.get(f"https://fantasy.premierleague.com/api/element-summary/{id}/").json()["history"]
         current_gameweek_results = [result for result in all_gameweek_results if result["round"] == gameweek]
