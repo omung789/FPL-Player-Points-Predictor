@@ -9,7 +9,7 @@ current_month = current_date.month
 if current_month < 7:
     current_year = current_year - 1
 
-gameweek = 24
+gameweek = 25
 
 years = [f"{current_year - i}-{str(current_year - i + 1)[2:]}" for i in range(5)]
 

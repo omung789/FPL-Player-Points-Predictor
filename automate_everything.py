@@ -16,6 +16,8 @@ get best players for the next 4 gameweeks as opposed to just the next one
 compare performance of best team to their actual points total in comparison to average points total and best points total
 code double points for captain
 change html_strings file to csv so that special characters can be used
+find way to deal with irregular names - use dicitonary to convert common 3+ word names/unexpected names to known as name
+implement assistant manager wilcard
 '''
 
 # from data_scraping import get_previous_seasons_data
@@ -26,7 +28,7 @@ import machine_learning
 
 import combine_current_seasons_data
 
-gameweek = 24
+gameweek = 25
 
 clubs = {
     'Arsenal': 'ARS',
