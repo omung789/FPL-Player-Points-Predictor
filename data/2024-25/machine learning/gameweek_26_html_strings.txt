@@ -1,0 +1,17 @@
+<div class="player goalkeeper"><img src="../logos/ARS.png" alt="Arsenal Logo"><br>David Raya Martin<br>Price: 5.5<br>Points: 4.05</div>
+<div class="player defender"><img src="../logos/MCI.png" alt="Man City Logo"><br>Gvardiol<br>Price: 5.9<br>Points: 3.71</div>
+<div class="player defender"><img src="../logos/TOT.png" alt="Spurs Logo"><br>Porro<br>Price: 5.4<br>Points: 3.9</div>
+<div class="player defender"><img src="../logos/ARS.png" alt="Arsenal Logo"><br>Gabriel dos Santos Magalhaes<br>Price: 6.3<br>Points: 3.94</div>
+<div class="player midfielder"><img src="../logos/BOU.png" alt="Bournemouth Logo"><br>Semenyo<br>Price: 5.7<br>Points: 4.07</div>
+<div class="player midfielder"><img src="../logos/BOU.png" alt="Bournemouth Logo"><br>Kluivert<br>Price: 6.0<br>Points: 4.28</div>
+<div class="player midfielder"><img src="../logos/LIV.png" alt="Liverpool Logo"><br>Salah<br>Price: 13.7<br>Points: 7.48</div>
+<div class="player midfielder"><img src="../logos/NEW.png" alt="Newcastle Logo"><br>Gordon<br>Price: 7.5<br>Points: 4.01</div>
+<div class="player forward"><img src="../logos/EVE.png" alt="Everton Logo"><br>Norberto Bercique Gomes Betuncal<br>Price: 4.9<br>Points: 3.75</div>
+<div class="player forward"><img src="../logos/NFO.png" alt="Nott'm Forest Logo"><br>Wood<br>Price: 7.1<br>Points: 4.74</div>
+<div class="player forward"><img src="../logos/MCI.png" alt="Man City Logo"><br>Haaland<br>Price: 14.7<br>Points: 6.59</div>
+<div class="player"><h6>GKP</h6><img src="../logos/BRE.png" alt="Brentford Logo"><br>Valdimarsson<br>Price: 3.9<br>Points: 0.73</div>
+<div class="player"><h6>DEF 1</h6><img src="../logos/WOL.png" alt="Wolves Logo"><br>Mosquera<br>Price: 3.8<br>Points: 0.0</div>
+<div class="player"><h6>DEF 2</h6><img src="../logos/IPS.png" alt="Ipswich Logo"><br>Greaves<br>Price: 3.9<br>Points: 2.69</div>
+<div class="player"><h6>MID 1</h6><img src="../logos/EVE.png" alt="Everton Logo"><br>Iroegbunam<br>Price: 4.3<br>Points: 0.73</div>
+<h6>Total xP (Starting Lineup Only): 50.52</h6>
+<h6>Total Cost: 98.6</h6>

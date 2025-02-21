@@ -1,0 +1,29 @@
+<div class="player-info"><img src="../logos/ARS.png" alt="Arsenal Logo"><p>David Raya Martin<br>Price: 5.5<br>xP: 4.05</p></div>
+<div class="player-info"><img src="../logos/NFO.png" alt="Nott'm Forest Logo"><p>Sels<br>Price: 5.0<br>xP: 3.82</p></div>
+<div class="player-info"><img src="../logos/IPS.png" alt="Ipswich Logo"><p>Palmer<br>Price: 4.5<br>xP: 3.69</p></div>
+<div class="player-info"><img src="../logos/EVE.png" alt="Everton Logo"><p>Pickford<br>Price: 5.1<br>xP: 3.56</p></div>
+<div class="player-info"><img src="../logos/BOU.png" alt="Bournemouth Logo"><p>Arrizabalaga<br>Price: 4.6<br>xP: 3.3</p></div>
+<div class="player-info"><img src="../logos/ARS.png" alt="Arsenal Logo"><p>Gabriel dos Santos Magalhães<br>Price: 6.3<br>xP: 3.94</p></div>
+<div class="player-info"><img src="../logos/TOT.png" alt="Spurs Logo"><p>Porro<br>Price: 5.4<br>xP: 3.9</p></div>
+<div class="player-info"><img src="../logos/ARS.png" alt="Arsenal Logo"><p>Saliba<br>Price: 6.2<br>xP: 3.8</p></div>
+<div class="player-info"><img src="../logos/MCI.png" alt="Man City Logo"><p>Gvardiol<br>Price: 5.9<br>xP: 3.71</p></div>
+<div class="player-info"><img src="../logos/LIV.png" alt="Liverpool Logo"><p>Alexander-Arnold<br>Price: 7.4<br>xP: 3.44</p></div>
+<div class="player-info"><img src="../logos/LIV.png" alt="Liverpool Logo"><p>Virgil van Dijk<br>Price: 6.4<br>xP: 3.38</p></div>
+<div class="player-info"><img src="../logos/FUL.png" alt="Fulham Logo"><p>Robinson<br>Price: 5.1<br>xP: 3.33</p></div>
+<div class="player-info"><img src="../logos/EVE.png" alt="Everton Logo"><p>Tarkowski<br>Price: 4.8<br>xP: 3.32</p></div>
+<div class="player-info"><img src="../logos/LIV.png" alt="Liverpool Logo"><p>Salah<br>Price: 13.7<br>xP: 7.48</p></div>
+<div class="player-info"><img src="../logos/CHE.png" alt="Chelsea Logo"><p>Palmer<br>Price: 11.1<br>xP: 5.62</p></div>
+<div class="player-info"><img src="../logos/TOT.png" alt="Spurs Logo"><p>Heung-min<br>Price: 9.7<br>xP: 4.6</p></div>
+<div class="player-info"><img src="../logos/BRE.png" alt="Brentford Logo"><p>Mbeumo<br>Price: 7.9<br>xP: 4.55</p></div>
+<div class="player-info"><img src="../logos/BOU.png" alt="Bournemouth Logo"><p>Kluivert<br>Price: 6.0<br>xP: 4.28</p></div>
+<div class="player-info"><img src="../logos/MUN.png" alt="Man Utd Logo"><p>Bruno Borges Fernandes<br>Price: 8.3<br>xP: 4.13</p></div>
+<div class="player-info"><img src="../logos/BOU.png" alt="Bournemouth Logo"><p>Semenyo<br>Price: 5.7<br>xP: 4.07</p></div>
+<div class="player-info"><img src="../logos/NEW.png" alt="Newcastle Logo"><p>Gordon<br>Price: 7.5<br>xP: 4.01</p></div>
+<div class="player-info"><img src="../logos/MCI.png" alt="Man City Logo"><p>Haaland<br>Price: 14.7<br>xP: 6.59</p></div>
+<div class="player-info"><img src="../logos/NEW.png" alt="Newcastle Logo"><p>Isak<br>Price: 9.5<br>xP: 5.48</p></div>
+<div class="player-info"><img src="../logos/NFO.png" alt="Nott'm Forest Logo"><p>Wood<br>Price: 7.1<br>xP: 4.74</p></div>
+<div class="player-info"><img src="../logos/AVL.png" alt="Aston Villa Logo"><p>Watkins<br>Price: 8.9<br>xP: 4.25</p></div>
+<div class="player-info"><img src="../logos/CRY.png" alt="Crystal Palace Logo"><p>Mateta<br>Price: 7.3<br>xP: 4.16</p></div>
+<div class="player-info"><img src="../logos/WOL.png" alt="Wolves Logo"><p>Matheus Santos Carneiro Da Cunha<br>Price: 6.8<br>xP: 4.02</p></div>
+<div class="player-info"><img src="../logos/EVE.png" alt="Everton Logo"><p>Norberto Bercique Gomes Betuncal<br>Price: 4.9<br>xP: 3.75</p></div>
+<div class="player-info"><img src="../logos/MCI.png" alt="Man City Logo"><p>Marmoush<br>Price: 7.1<br>xP: 3.48</p></div>

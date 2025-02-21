@@ -28,7 +28,7 @@ import machine_learning
 
 import combine_current_seasons_data
 
-gameweek = 25
+gameweek = 26
 
 clubs = {
     'Arsenal': 'ARS',
