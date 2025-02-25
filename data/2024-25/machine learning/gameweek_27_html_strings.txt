@@ -1,0 +1,17 @@
+<div class="player goalkeeper"><img src="../logos/NFO.png" alt="Nott'm Forest Logo"><br>Sels<br>Price: 5.0<br>Points: 3.64</div>
+<div class="player defender"><img src="../logos/NFO.png" alt="Nott'm Forest Logo"><br>Milenkovic<br>Price: 4.8<br>Points: 3.06</div>
+<div class="player defender"><img src="../logos/CRY.png" alt="Crystal Palace Logo"><br>Guehi<br>Price: 4.6<br>Points: 3.1</div>
+<div class="player defender"><img src="../logos/WHU.png" alt="West Ham Logo"><br>Wan-Bissaka<br>Price: 4.4<br>Points: 3.2</div>
+<div class="player defender"><img src="../logos/CRY.png" alt="Crystal Palace Logo"><br>Lacroix<br>Price: 4.5<br>Points: 3.25</div>
+<div class="player defender"><img src="../logos/TOT.png" alt="Spurs Logo"><br>Spence<br>Price: 4.4<br>Points: 3.53</div>
+<div class="player midfielder"><img src="../logos/BRE.png" alt="Brentford Logo"><br>Mbeumo<br>Price: 8.0<br>Points: 5.22</div>
+<div class="player midfielder"><img src="../logos/CHE.png" alt="Chelsea Logo"><br>Palmer<br>Price: 11.1<br>Points: 6.03</div>
+<div class="player midfielder"><img src="../logos/LIV.png" alt="Liverpool Logo"><br>Salah<br>Price: 13.7<br>Points: 7.86</div>
+<div class="player forward"><img src="../logos/NEW.png" alt="Newcastle Logo"><br>Isak<br>Price: 9.5<br>Points: 5.26</div>
+<div class="player forward"><img src="../logos/AVL.png" alt="Aston Villa Logo"><br>Watkins<br>Price: 8.9<br>Points: 4.52</div>
+<div class="player"><h6>GKP</h6><img src="../logos/BRE.png" alt="Brentford Logo"><br>Valdimarsson<br>Price: 3.9<br>Points: 0.89</div>
+<div class="player"><h6>MID 1</h6><img src="../logos/NFO.png" alt="Nott'm Forest Logo"><br>Sangare<br>Price: 4.3<br>Points: 0.81</div>
+<div class="player"><h6>MID 2</h6><img src="../logos/EVE.png" alt="Everton Logo"><br>Iroegbunam<br>Price: 4.3<br>Points: 0.51</div>
+<div class="player"><h6>FWD 1</h6><img src="../logos/TOT.png" alt="Spurs Logo"><br>Scarlett<br>Price: 4.4<br>Points: 0.7</div>
+<h6>Total Points (Starting Lineup Only): 48.67</h6>
+<h6>Total Cost: 95.8</h6>
