@@ -28,7 +28,7 @@ import machine_learning
 
 import combine_current_seasons_data
 
-gameweek = 27
+gameweek = 28
 
 clubs = {
     'Arsenal': 'ARS',
@@ -114,6 +114,7 @@ def team_to_html_strings(data_path,results_path):
     num_defenders, num_midfielders, num_forwards = 0, 0, 0
     current_date = date.today()
     current_year = current_date.year
+    season = f"{current_year - 1}-{str(current_year)[2:]}"
     for i,player in enumerate(team):
         full_name = player[0].split(" ")
         if len(full_name) == 2:
@@ -121,7 +122,7 @@ def team_to_html_strings(data_path,results_path):
         else:
             name = player[0]
         name = remove_accents(name)
-        if str(current_year-1) in data_path:
+        if fr"C:\Users\omung\OneDrive - University College London\UCL\Final Year Project\Python\data\{season}\machine learning\gameweek_{gameweek}_predictions.csv" == data_path:
             backspaces = '../'
         else:
             backspaces = '../../'

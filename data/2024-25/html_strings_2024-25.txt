@@ -1,17 +1,17 @@
-<div class="player goalkeeper"><img src="../logos/NFO.png" alt="Nott'm Forest Logo"><br>Sels<br>Price: 4.5<br>Points: 110.0</div>
-<div class="player defender"><img src="../logos/LIV.png" alt="Liverpool Logo"><br>Virgil van Dijk<br>Price: 6.0<br>Points: 99.0</div>
-<div class="player defender"><img src="../logos/NEW.png" alt="Newcastle Logo"><br>Hall<br>Price: 4.5<br>Points: 101.0</div>
-<div class="player defender"><img src="../logos/NFO.png" alt="Nott'm Forest Logo"><br>Aina<br>Price: 4.5<br>Points: 109.0</div>
-<div class="player midfielder"><img src="../logos/BOU.png" alt="Bournemouth Logo"><br>Kluivert<br>Price: 5.5<br>Points: 130.0</div>
-<div class="player midfielder"><img src="../logos/BRE.png" alt="Brentford Logo"><br>Mbeumo<br>Price: 7.0<br>Points: 166.0</div>
-<div class="player midfielder"><img src="../logos/CHE.png" alt="Chelsea Logo"><br>Palmer<br>Price: 10.5<br>Points: 177.0</div>
-<div class="player midfielder"><img src="../logos/LIV.png" alt="Liverpool Logo"><br>Salah<br>Price: 12.5<br>Points: 285.0</div>
-<div class="player forward"><img src="../logos/NEW.png" alt="Newcastle Logo"><br>Isak<br>Price: 8.5<br>Points: 167.0</div>
-<div class="player forward"><img src="../logos/NFO.png" alt="Nott'm Forest Logo"><br>Wood<br>Price: 6.0<br>Points: 168.0</div>
-<div class="player forward"><img src="../logos/WOL.png" alt="Wolves Logo"><br>Matheus Santos Carneiro Da Cunha<br>Price: 6.5<br>Points: 141.0</div>
-<div class="player"><h6>GKP</h6><img src="../logos/WHU.png" alt="West Ham Logo"><br>Fabianski<br>Price: 4.0<br>Points: 36.0</div>
-<div class="player"><h6>DEF 1</h6><img src="../logos/LEI.png" alt="Leicester Logo"><br>Justin<br>Price: 4.5<br>Points: 44.0</div>
-<div class="player"><h6>DEF 2</h6><img src="../logos/ARS.png" alt="Arsenal Logo"><br>Saliba<br>Price: 6.0<br>Points: 95.0</div>
-<div class="player"><h6>MID 1</h6><img src="../logos/MCI.png" alt="Man City Logo"><br>Savio 'Savinho' Moreira de Oliveira<br>Price: 6.5<br>Points: 85.0</div>
-<h6>Total Points (Starting Lineup Only): 1653.0</h6>
-<h6>Total Cost: 97.0</h6>
+<div class="player goalkeeper"><img src="../../logos/NFO.png" alt="Nott'm Forest Logo"><br>Sels<br>Price: 4.5<br>Points: 116.0</div>
+<div class="player defender"><img src="../../logos/CRY.png" alt="Crystal Palace Logo"><br>Munoz<br>Price: 5.0<br>Points: 106.0</div>
+<div class="player defender"><img src="../../logos/LIV.png" alt="Liverpool Logo"><br>Virgil van Dijk<br>Price: 6.0<br>Points: 106.0</div>
+<div class="player defender"><img src="../../logos/NFO.png" alt="Nott'm Forest Logo"><br>Aina<br>Price: 4.5<br>Points: 115.0</div>
+<div class="player midfielder"><img src="../../logos/BOU.png" alt="Bournemouth Logo"><br>Kluivert<br>Price: 5.5<br>Points: 140.0</div>
+<div class="player midfielder"><img src="../../logos/BRE.png" alt="Brentford Logo"><br>Mbeumo<br>Price: 7.0<br>Points: 171.0</div>
+<div class="player midfielder"><img src="../../logos/CHE.png" alt="Chelsea Logo"><br>Palmer<br>Price: 10.5<br>Points: 180.0</div>
+<div class="player midfielder"><img src="../../logos/LIV.png" alt="Liverpool Logo"><br>Salah<br>Price: 12.5<br>Points: 291.0</div>
+<div class="player forward"><img src="../../logos/NEW.png" alt="Newcastle Logo"><br>Isak<br>Price: 8.5<br>Points: 167.0</div>
+<div class="player forward"><img src="../../logos/NFO.png" alt="Nott'm Forest Logo"><br>Wood<br>Price: 6.0<br>Points: 170.0</div>
+<div class="player forward"><img src="../../logos/WOL.png" alt="Wolves Logo"><br>Matheus Santos Carneiro Da Cunha<br>Price: 6.5<br>Points: 143.0</div>
+<div class="player"><h6>GKP</h6><img src="../../logos/WHU.png" alt="West Ham Logo"><br>Fabianski<br>Price: 4.0<br>Points: 36.0</div>
+<div class="player"><h6>DEF 1</h6><img src="../../logos/LEI.png" alt="Leicester Logo"><br>Justin<br>Price: 4.5<br>Points: 45.0</div>
+<div class="player"><h6>DEF 2</h6><img src="../../logos/BOU.png" alt="Bournemouth Logo"><br>Huijsen<br>Price: 4.5<br>Points: 70.0</div>
+<div class="player"><h6>MID 1</h6><img src="../../logos/SOU.png" alt="Southampton Logo"><br>Dibling<br>Price: 4.5<br>Points: 49.0</div>
+<h6>Total Points (Starting Lineup Only): 1705.0</h6>
+<h6>Total Cost: 94.0</h6>

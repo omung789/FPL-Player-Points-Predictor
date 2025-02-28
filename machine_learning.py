@@ -45,7 +45,7 @@ train = pd.read_csv(os.path.join(data_directory, "combined_previous_seasons_data
 
 old_gameweek_cleaned = []
 #get data from previous gameweeks in the current season
-gameweek = 27
+gameweek = 28
 for i in range(1, gameweek - 1):
     file_path = os.path.join(data_directory,year,"results",f"gameweek_{i}_results.csv")
     old_gameweek_cleaned.append(pd.read_csv(file_path))

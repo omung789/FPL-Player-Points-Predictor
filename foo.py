@@ -10,3 +10,6 @@ if current_month < 7:
 years = [f"{current_year - i}-{str(current_year - i + 1)[2:]}" for i in range(5)]
 
 print(years)
+year = date.today().year
+print(year-1)
+data_path = fr"C:\Users\omung\OneDrive - University College London\UCL\Final Year Project\Python\data\cleaned last 3 seasons data\cleaned_data_for_{year}_season.csv"

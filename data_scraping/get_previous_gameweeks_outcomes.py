@@ -47,7 +47,7 @@ all_data = requests.get(f"https://fantasy.premierleague.com/api/bootstrap-static
 player_data = all_data["elements"]
 
 # put upcoming gameweek number here
-gameweeks = 27
+gameweeks = 28
 last_3_gameweeks_data = []
 for gameweek in range(1, gameweeks):
     print(f"Getting gameweek {gameweek} results")

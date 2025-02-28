@@ -10,7 +10,7 @@ if current_month < 7:
 
 year = f"{current_year}-{str(current_year + 1)[2:]}"
 
-gameweek = 27
+gameweek = 28
 
 cur_dir = os.getcwd()
 file_location = cur_dir + '/website/webpages/transfer_recommendations/index.html'
