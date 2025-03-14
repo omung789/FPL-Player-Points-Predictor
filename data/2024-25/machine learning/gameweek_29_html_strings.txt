@@ -1,0 +1,17 @@
+<div class="player goalkeeper"><img src="../logos/MCI.png" alt="Man City Logo"><br>Ederson Santana de Moraes<br>Price: 5.3<br>Points: 3.68</div>
+<div class="player defender"><img src="../logos/WHU.png" alt="West Ham Logo"><br>Wan-Bissaka<br>Price: 4.5<br>Points: 3.28</div>
+<div class="player defender"><img src="../logos/CHE.png" alt="Chelsea Logo"><br>Marc Cucurella Saseta<br>Price: 5.2<br>Points: 3.72</div>
+<div class="player defender"><img src="../logos/NFO.png" alt="Nott'm Forest Logo"><br>Aina<br>Price: 5.3<br>Points: 3.27</div>
+<div class="player midfielder"><img src="../logos/ARS.png" alt="Arsenal Logo"><br>Ødegaard<br>Price: 8.2<br>Points: 4.27</div>
+<div class="player midfielder"><img src="../logos/BOU.png" alt="Bournemouth Logo"><br>Kluivert<br>Price: 6.2<br>Points: 4.45</div>
+<div class="player midfielder"><img src="../logos/BRE.png" alt="Brentford Logo"><br>Mbeumo<br>Price: 8.1<br>Points: 5.0</div>
+<div class="player midfielder"><img src="../logos/MUN.png" alt="Man Utd Logo"><br>Bruno Borges Fernandes<br>Price: 8.4<br>Points: 5.02</div>
+<div class="player midfielder"><img src="../logos/CHE.png" alt="Chelsea Logo"><br>Palmer<br>Price: 10.9<br>Points: 5.59</div>
+<div class="player forward"><img src="../logos/NFO.png" alt="Nott'm Forest Logo"><br>Wood<br>Price: 7.3<br>Points: 4.12</div>
+<div class="player forward"><img src="../logos/MCI.png" alt="Man City Logo"><br>Haaland<br>Price: 14.7<br>Points: 5.57</div>
+<div class="player"><h6>GKP</h6><img src="../logos/EVE.png" alt="Everton Logo"><br>Joao Neves Virginia<br>Price: 3.9<br>Points: 0.2</div>
+<div class="player"><h6>DEF 1</h6><img src="../logos/IPS.png" alt="Ipswich Logo"><br>Burgess<br>Price: 3.8<br>Points: 0.14</div>
+<div class="player"><h6>DEF 2</h6><img src="../logos/WOL.png" alt="Wolves Logo"><br>Mosquera<br>Price: 3.8<br>Points: 0.04</div>
+<div class="player"><h6>FWD 1</h6><img src="../logos/TOT.png" alt="Spurs Logo"><br>Scarlett<br>Price: 4.4<br>Points: 0.44</div>
+<h6>Total Points (Starting Lineup Only): 47.97</h6>
+<h6>Total Cost: 100.0</h6>

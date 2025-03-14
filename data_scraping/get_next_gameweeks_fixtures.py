@@ -38,7 +38,7 @@ current_gameweek = requests.get(f"https://fantasy.premierleague.com/api/event-st
 #{'bonus_added': True, 'date': '2024-03-11', 'event': 28, 'points': 'r'}, {'bonus_added': True, 'date': '2024-03-13', 'event': 28, 'points': 'r'}], 'leagues': 'Updating'}
 
 #change to next gameweek
-gameweek = 28
+gameweek = 29
 
 all_data = requests.get(f"https://fantasy.premierleague.com/api/bootstrap-static/").json()
 
